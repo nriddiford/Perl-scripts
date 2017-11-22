@@ -6,8 +6,8 @@ use Email::Simple::Creator;
 
 my $email = Email::Simple->create(
 header => [
-	From    => 'nickriddiford@gmail.com',
-	To      => 'nickriddiford@me.com',
+	From    => 'nridd22@gmail.com',
+	To      => 'nridd22@me.com',
 	Subject => 'Automated email from script',
 ],
 body 			=> '***',
@@ -17,7 +17,7 @@ my $sender = Email::Send->new(
 {
 mailer      => 'Gmail',
 mailer_args => [
-	username 		=> 'nickriddiford@gmail.com',
+	username 		=> 'nridd22@gmail.com',
 	password 		=> '***...dd',
 	]
 }
